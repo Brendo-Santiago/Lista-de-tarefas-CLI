@@ -1,4 +1,5 @@
 [
-{"id":"2", "descricao":"asdawd", "dataCricao":"2025-02-04T15:20:16.312119", "dataAtualizacao":"2025-02-04T15:20:16.312119"},
-{"id":"3", "descricao":"blblbl", "dataCricao":"2025-02-04T15:23:29.4121217", "dataAtualizacao":"2025-02-04T15:23:29.4121217"}
+{"id":"1", "descricao":"Estudar","status":"FEITO", "dataCricao":"2025-02-07T23:13:02.3385946", "dataAtualizacao":"2025-02-07T23:16:11.3310992"},
+{"id":"2", "descricao":"Ler","status":"EM_PROGRESSO", "dataCricao":"2025-02-07T23:13:27.3619699", "dataAtualizacao":"2025-02-07T23:14:33.5997542"},
+{"id":"3", "descricao":"Malhar","status":"PENDENTE", "dataCricao":"2025-02-07T23:13:42.1557416", "dataAtualizacao":"2025-02-07T23:13:42.1557416"}
 ]

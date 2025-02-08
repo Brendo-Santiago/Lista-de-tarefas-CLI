@@ -53,6 +53,16 @@ public class GerenciadorDeTarefa {
         tarefa.update(descricao);
     }
 
+    public void marcar_em_progresso(String id) {
+        Tarefa tarefa = acharTarefa(id).orElseThrow(()-> new IllegalArgumentException("A tarefa com ID " + id + "Não foi achado"));
+        tarefa.atualizarStatus(Status.EM_PROGRESSO);
+    }
+
+    public void marcar_feito(String id) {
+        Tarefa tarefa = acharTarefa(id).orElseThrow(()-> new IllegalArgumentException("A tarefa com ID " + id + "Não foi achado"));
+        tarefa.atualizarStatus(Status.FEITO);
+    }
+
     public void salvadoTarefa() {
         StringBuilder sb = new StringBuilder();
         sb.append("[\n");
